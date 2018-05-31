@@ -295,8 +295,7 @@ html { cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAA
 	 margin: 0 auto;
 	 padding: 30px;
 	display: grid;
-	grid-template-column: 22% 22% 22% 22%;
-	grid-template-rows: 22% 22%;
+	grid-template-column:  1fr 1fr 1fr 1fr;;
 	grid-gap: 2vh;
 	border: 2px dashed green;
 }
@@ -306,7 +305,7 @@ html { cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAA
 	border: 2px green;
 	grid-column-start: 1;
 	grid-column-end: span 1;
-	border: 7px dotted green;
+	border: 2px green solid;
 }
 .ques2{
 	background-color:#9FD9AE;
@@ -316,27 +315,12 @@ html { cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAA
 	grid-column-end: span 1;
 	border: 2px green solid;
 }
+
 .ques3{
 	background-color:#9FD9AE;
 	padding: 2em;
 	border: 2px green;
 	grid-column-start: 3;
-	grid-column-end: span 1;
-	border: 2px green solid;
-}
-.ques4{
-	background-color:#9FD9AE;
-	padding: 2em;
-	border: 2px green;
-	grid-column-start: 4;
-	grid-column-end: span 1;
-	border: 2px green solid;
-}
-.ques4{
-	background-color:#9FD9AE;
-	padding: 2em;
-	border: 2px green;
-	grid-column-start: 4;
 	grid-column-end: span 1;
 	border: 2px green solid;
 }
